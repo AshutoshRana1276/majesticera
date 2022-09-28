@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Montserrat',sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*nav {
@@ -26,11 +26,9 @@ body {
   font-weight: 350;
 }
 
-
-
 .hero-image {
   width: 100%;
-  height:calc(100vh - 75px);
+  height: calc(100vh - 75px);
 }
 
 .hero-anchor {
@@ -41,44 +39,76 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: white;
   height: 100%;
   width: 100%;
-  background-color:rgba(0, 0, 0, 0.3);
-
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
-.left-square{
-  font-size: 350px;
-  font-weight: 100;
+@media only screen and (min-width: 901px) {
+  .left-square {
+    font-size: 350px;
+    font-weight: 100;
+  }
 
+  .right-square {
+    font-size: 350px;
+    font-weight: 100;
+  }
+  .welcome {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .india {
+    padding-top: 20px;
+    white-space: nowrap;
+    font-size: 80px;
+    font-weight: 400;
+  }
+
+  .meaning {
+    padding-top: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+  }
 }
 
-.right-square{
-  font-size: 350px;
-  font-weight: 100;
+@media only screen and (max-width:900px) {
+  .left-square {
+    font-size: 145px;
+    font-weight: 100;
+    line-height: 1;
+  }
 
-}
+  .right-square {
+    font-size: 145px;
+    font-weight: 100;
+    line-height: 1;
+  }
 
-.welcome {
-  font-size: 30px;
-  font-weight:400 ;
-  text-align: center;
-}
+  .welcome {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
 
-.india {
-  padding-top: 20px;
-  white-space:nowrap ;
-  font-size: 80px;
-  font-weight:400 ;
-}
+  .india {
+    padding-top: 20px;
+    white-space: nowrap;
+    font-size: 20px;
+    font-weight: 400;
+  }
 
-.meaning{
-  padding-top: 20px;
-  font-size: 35px;
-  font-weight:400 ;
-  text-align: center;
+  .meaning {
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
 }
 
 .hero-sections {
@@ -91,25 +121,24 @@ body {
 }
 
 .relat-2 {
-  position:relative;
+  position: relative;
 }
 
 .relat-3 {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: white;
   height: 100%;
   width: 100%;
-  background-color:rgba(0, 0, 0, 0.5);
-
-
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 
+
 .fnt-9 {
-  font-size:30px;
+  font-size: 30px;
   font-weight: 350;
 }
 
@@ -144,22 +173,46 @@ body {
 .relat {
   position: relative;
 }
+.mid-section{
+  width: 100%;
+  height: 800px;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.m9UW7XvSyKs3BOL2anHcEAHaE8%26pid%3DApi&f=1&ipt=08a9755d4ddf6e3edf557b2e3c3513f377350b3deebefe9fd1ff1d9ca832ec0d&ipo=images");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .side-1 {
   margin-left: 100px;
   top: 100px;
   left: 50px;
   position: absolute;
-  background-color: white;
-  color: gray;
   width: 450px;
   text-align: center;
+}
+.values_section{
+  background-color: white;
+  color: gray;
   padding: 35px;
   font-size: 17px;
   font-weight: 500;
   font-family: arial, sans-serif;
   letter-spacing: 2px;
   padding-bottom: 50px;
+}
+@media (max-width: 900px){
+
+  .mid-section{
+    overflow: hidden !important;
+  }
+  .side-1{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    margin-left: 0;
+    padding: 1.25rem;
+    
+  }
 }
 
 .second-lst {
@@ -230,7 +283,7 @@ body {
 
 .lst-3 {
   padding: 15px;
-  color: gray ;
+  color: gray;
 }
 
 .lst-4 {
@@ -262,7 +315,7 @@ body {
   color: #0a66c2;
 }
 
-.gallery div{
+.gallery div {
   overflow: hidden;
 }
 .caption:hover .gallery-img {
@@ -275,23 +328,23 @@ body {
 .caption {
   position: relative;
 }
-.caption:hover .caption-cover{
+.caption:hover .caption-cover {
   display: block;
 }
 
-.caption-cover{
+.caption-cover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   color: white;
-  background-color:rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
   height: 100%;
-  
+
   display: none;
 }
-.place-center{
+.place-center {
   display: grid;
   place-items: center;
   height: 100%;

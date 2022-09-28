@@ -151,7 +151,6 @@ body {
   padding-top: 100px;
   font-size: 30px;
   font-weight: 100;
-  margin-bottom: 80px;
 }
 
 .events {
@@ -162,7 +161,7 @@ body {
   padding-top: 45px;
   font-size: 15px;
   font-weight: 300;
-  margin-bottom: 80px;
+  margin-top: 1.25rem;
 }
 
 .image-3 {
@@ -232,6 +231,13 @@ body {
   padding-right: 150px;
 }
 
+@media (max-width: 900px){
+  .snd-lst{
+    padding: 20px;
+
+  }
+}
+
 .image-7 {
   width: 100%;
   padding-left: ;
@@ -269,6 +275,13 @@ body {
   padding: 0 90px;
 }
 
+@media (max-width: 900px) {
+  .last-2 {
+  padding: 20px;
+
+}
+}
+
 .last-1 {
   border: 1px solid #bbbbbb;
   padding: 25px;
@@ -290,9 +303,6 @@ body {
   padding-left: 150px;
 }
 
-.lst-5 {
-  padding-left: 300px;
-}
 
 .footer {
   background-color: white;

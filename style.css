@@ -9,6 +9,11 @@ body {
   z-index: 10;
 }*/
 
+.logo-img{
+  height: 40px;
+  width: 40px;
+}
+
 .title {
   padding-left: 150px;
   color: red;
@@ -175,7 +180,7 @@ body {
 .mid-section{
   width: 100%;
   height: 800px;
-  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.m9UW7XvSyKs3BOL2anHcEAHaE8%26pid%3DApi&f=1&ipt=08a9755d4ddf6e3edf557b2e3c3513f377350b3deebefe9fd1ff1d9ca832ec0d&ipo=images");
+  background: url("IMG_20211208_052048.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -328,6 +333,14 @@ body {
 .gallery div {
   overflow: hidden;
 }
+.caption{
+  height: 100%;
+}
+.caption .gallery-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .caption:hover .gallery-img {
   scale: 1.3;
   transform: rotate(10deg);
@@ -358,4 +371,12 @@ body {
   display: grid;
   place-items: center;
   height: 100%;
+}
+.imgWrapper{
+  height: 100%;
+}
+.imgWrapper img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

@@ -3,11 +3,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-/*nav {
-  position: sticky;
+nav {
   top: 0;
   z-index: 10;
-}*/
+}
 
 .logo-img{
   height: 40px;
@@ -34,6 +33,7 @@ body {
 .hero-image {
   width: 100%;
   height: calc(100vh - 75px);
+  object-fit: cover;
 }
 
 .hero-anchor {
